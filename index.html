@@ -229,12 +229,12 @@
     </div>
     <div class="container">
         <h1>《喜羊羊与灰太狼》羊村守护者系列音乐资源包</h1>
-        <p>作者：闲鱼茶酱呀</p>
-        <p>文件大小：12.5MB</p>
+        <p>作者: <a href="https://space.bilibili.com/1074586668" style="color: #333;">闲鱼茶酱呀</a></p>
+        <p>上次更新: 2025.01.25</p>
 
         <h2>资源包特色</h2>
         <ul>
-            <li>音乐系列：10首《喜羊羊与灰太狼》羊村守护者系列音乐，每一首都带您回到经典的羊村冒险。</li>
+            <li>音乐系列：11首《喜羊羊与灰太狼》羊村守护者系列音乐，每一首都带您回到经典的羊村冒险。</li>
             <li>简易使用：只需在Minecraft中输入命令，就能播放您喜爱的主题曲！</li>
             <li>适用版本：Minecraft Bedrock版（版本1.12及以上）</li>
         </ul>
@@ -242,8 +242,8 @@
         <h2>如何使用</h2>
         <ul>
             <li>下载并加载资源包文件。</li>
-            <li>启动Minecraft游戏，在聊天框输入命令：<br><span class="code">/music play sheep_op_x</span></li>
-            <li>其中x是数字，代表不同的主题曲。</li>
+            <li>启动Minecraft游戏，在聊天框输入命令：<br><span class="code">/music play [music name]</span></li>
+            <li>其中<span class="code">[music name]</span>是指音乐名称，代表不同的音乐曲目。</li>
             <li>例如：输入<span class="code">/music play sheep_op_10</span>播放《奇侠大营救》主题曲。</li>
         </ul>
 
@@ -254,6 +254,7 @@
             <div class="custom-link">选择版本：<span id="selectedVersion">unknown</span></div>
             <div class="version-list" id="versionList">
                 <div class="version-item" data-version="1.00.0">1.00.0</div>
+                <div class="version-item" data-version="1.00.1">1.00.1</div>
             </div>
         </div>
 
@@ -266,8 +267,8 @@
         </ol>
 
         <h2>联系作者</h2>
-        <p>Email：<a href="mailto:CraftBlockht6x@outlook.com?subject=用户向站主发送的邮件" class="a">CraftBlockht6x@outlook.com</a></p>
-        <p>Bilibili：<a href="https://space.bilibili.com/1074586668" class="a">@闲鱼茶酱呀</a></p>
+        <p>Email: <a href="mailto:CraftBlockht6x@outlook.com?subject=用户向站主发送的邮件" class="a">CraftBlockht6x@outlook.com</a></p>
+        <p>Bilibili: <a href="https://space.bilibili.com/1074586668" class="a">@闲鱼茶酱呀</a></p>
         <h2>音乐投稿</h2>
         <p>欢迎投稿您的《喜羊羊与灰太狼》音乐作品！我们非常期待您的创意和才华，希望能让更多玩家在Minecraft中享受到您的音乐。</p>
         <p>如果您有兴趣投稿，请将您的音乐文件发送至邮箱：<a href="mailto:CraftBlockht6x@outlook.com" class="a">CraftBlockht6x@outlook.com</a>。</p>
@@ -284,7 +285,8 @@
 
         <h2>更新记录</h2>
         <ul>
-            <li><strong>1.00.0:</strong> 第一个版本，共十首《羊村守护者》音乐。</li>
+            <li><strong>1.00.0:</strong> 2025.01.22-版本，共十首《羊村守护者》音乐。音乐名称<span class="code">sheep_op_1~10</span>。</li>
+            <li><strong>1.00.1:</strong> 2025.01.25-版本，共一首，添加喜羊羊吹叶子片段的音乐。音乐名称<span class="code">sheep_op_10_leaf</span>。</li>
         </ul>
 
         <h2>模拟控制台</h2>
@@ -301,7 +303,7 @@
 
     <footer>
         <p>&copy;《喜羊羊与灰太狼》羊村守护者系列音乐资源包</p>
-        <p>版权所有，本资源包由<a href="https://space.bilibili.com/1074586668" style="color: #888;">@闲鱼茶酱呀</a>开发，未经作者允许禁止转载，禁止用于商业用途。</p>
+        <p>版权所有，本资源包由<a href="https://space.bilibili.com/1074586668" style="color: #888;">闲鱼茶酱呀</a>开发，未经作者允许禁止转载，禁止用于商业用途。</p>
     </footer>
 
     <script>
@@ -316,7 +318,8 @@
         
         // 定义每个版本的下载链接
         const downloadLinks = {
-            "1.00.0": "pack/v1.00.0/v1.00.0_sheep_op_pack.zip",
+            "1.00.0": "pack/v1.00.0_sheep_op_pack.zip",
+            "1.00.1": "pack/v1.00.1_sheep_op_pack.zip",
             // 添加其他版本的下载链接...
         };
         
@@ -388,7 +391,8 @@
             'sheep_op_7': 'music/v1.00.0/sheep_op_7.ogg',
             'sheep_op_8': 'music/v1.00.0/sheep_op_8.ogg',
             'sheep_op_9': 'music/v1.00.0/sheep_op_9.ogg',
-            'sheep_op_10': 'music/v1.00.0/sheep_op_10.ogg'
+            'sheep_op_10': 'music/v1.00.0/sheep_op_10.ogg',
+            'sheep_op_10_leaf': 'music/v1.00.1/sheep_op_10_leaf.ogg'
         };
         
         // 音乐播放队列
