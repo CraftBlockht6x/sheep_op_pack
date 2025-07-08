@@ -253,6 +253,7 @@
         <div class="version-selector" id="versionSelector">
             <div class="custom-link">选择版本：<span id="selectedVersion">unknown</span></div>
             <div class="version-list" id="versionList">
+                <div class="version-item" data-version="1.01.0">1.01.0</div>
                 <div class="version-item" data-version="1.00.1">1.00.1</div>
                 <div class="version-item" data-version="1.00.0">1.00.0</div>
             </div>
@@ -288,6 +289,7 @@
             <li><strong>1.00.0:</strong> 2025.01.22-版本，共十首，羊村守护者系列音乐。音乐名称:<span class="code">sheep_op_1~10</span></li>
             <li><strong>1.00.1:</strong> 2025.01.25-版本，添加一首，添加喜羊羊吹叶子片段的音乐。音乐名称:<span class="code">sheep_op_10_leaf</span></li>
             <li><strong>1.00.1:</strong> 2025.01.29-补丁版本，添加两首，大电影《守护》主题曲和片尾曲。音乐名称:<span class="code">sheep_op_10_explore</span>和<span class="code">sheep_op_10_guard</span></li>
+            <li><strong>1.01.0:</strong> 2025.07.08-版本，添加一首，羊村守护者系列第十一《我的模样》主题曲。音乐名称:<span class="code">sheep_op_11</span></li>
         </ul>
 
         <h2>模拟控制台</h2>
@@ -321,8 +323,9 @@
         
         // 定义每个版本的下载链接
         const downloadLinks = {
-            "1.00.1": "pack/v1.00.1_sheep_op_pack.zip",
-            "1.00.0": "pack/v1.00.0_sheep_op_pack.zip",
+            "1.00.1": "download/v1.00.1_sheep_op_pack.zip",
+            "1.00.0": "download/v1.00.0_sheep_op_pack.zip",
+            "1.01.0": "download/v1.01.0_sheep_op_pack.zip"
             // 添加其他版本的下载链接...
         };
         
@@ -399,7 +402,8 @@
             // v1.00.1
             'sheep_op_10_leaf': 'music/v1.00.1/sheep_op_10_leaf.ogg',
             'sheep_op_10_guard': 'music/v1.00.1/sheep_op_10_guard.ogg',
-            'sheep_op_10_explore': 'music/v1.00.1/sheep_op_10_explore.ogg'
+            'sheep_op_10_explore': 'music/v1.00.1/sheep_op_10_explore.ogg',
+            'sheep_op_11': 'music/v1.01.0/sheep_op_11.ogg'
         };
         
         // 音乐播放队列
